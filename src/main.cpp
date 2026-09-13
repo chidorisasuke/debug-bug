@@ -2,7 +2,7 @@
 
 int findLargest(const int numbers[], int size)
 {
-    int largest = numbers[0];
+    int largest = numbers[0]; // BUG!
 
     for (int i = 1; i < size; ++i)
     {

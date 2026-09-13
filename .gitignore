@@ -1,2 +1,27 @@
+# CMake build output
 build/
+cmake-build-*/
+
+# Compiled binaries
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+
+# IDE / editor
 .vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
